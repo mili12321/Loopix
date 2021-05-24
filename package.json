@@ -1,5 +1,5 @@
 {
-  "homepage": "http://mili12321.github.io/Loopix",
+  "homepage": "http://mili12321.github.io/loopix",
   "name": "loopix",
   "version": "0.1.0",
   "private": true,
@@ -56,11 +56,11 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mili12321/Loopix.git"
+    "url": "git+https://github.com/mili12321/loopix.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mili12321/Loopix/issues"
+    "url": "https://github.com/mili12321/loopix/issues"
   }
 }
