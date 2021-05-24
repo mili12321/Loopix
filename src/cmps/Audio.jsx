@@ -17,8 +17,8 @@ export function Audio({
                     <ReactPlayer
                     className='react-player fixed-bottom'
                     url={loop}
-                    height='10px'
-                    width='10px'
+                    height='0'
+                    width='0'
                     playing={isPlaying}
                     controls = {false}
                     onEnded={handleEnded}

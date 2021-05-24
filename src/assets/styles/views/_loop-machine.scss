@@ -29,6 +29,10 @@
   z-index: 5;
 }
 
+.bottom-padding-for-scroll{
+  height: 100px;
+}
+
 @media only screen and (max-width: 600px) {
   .loop-machine-container{
     overflow-x: hidden;

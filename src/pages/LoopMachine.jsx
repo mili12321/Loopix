@@ -172,6 +172,8 @@ export const LoopMachine = () => {
             
             {msg&&<Msg msg={msg}/>}
 
+            <div className='bottom-padding-for-scroll'></div>
+
            
             {/* <Recorder activePads={activePads} isPlaying={isPlaying}/> */}
 
