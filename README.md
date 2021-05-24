@@ -11,7 +11,7 @@ A simple and fun way to create music.
 Combine multiple sounds into one big symphony with this loopix.</br>
 
 
-[**Try the app here 🎵**]()
+[**Try the app here 🎵**](https://mili12321.github.io/loopix/#/)
 
 
 ## Quick Start
