@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/loopix/static/css/main.0cd1fec3.chunk.css",
+    "main.css": "/loopix/static/css/main.2d9c7ef3.chunk.css",
     "main.js": "/loopix/static/js/main.9f566dc3.chunk.js",
     "main.js.map": "/loopix/static/js/main.9f566dc3.chunk.js.map",
     "runtime-main.js": "/loopix/static/js/runtime-main.5f05af44.js",
@@ -10,14 +10,14 @@
     "static/js/3.325221d7.chunk.js": "/loopix/static/js/3.325221d7.chunk.js",
     "static/js/3.325221d7.chunk.js.map": "/loopix/static/js/3.325221d7.chunk.js.map",
     "index.html": "/loopix/index.html",
-    "static/css/main.0cd1fec3.chunk.css.map": "/loopix/static/css/main.0cd1fec3.chunk.css.map",
+    "static/css/main.2d9c7ef3.chunk.css.map": "/loopix/static/css/main.2d9c7ef3.chunk.css.map",
     "static/js/2.2e8ae0ec.chunk.js.LICENSE.txt": "/loopix/static/js/2.2e8ae0ec.chunk.js.LICENSE.txt",
     "static/media/global.scss": "/loopix/static/media/Ubuntu-Regular.fbdecfce.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.5f05af44.js",
     "static/js/2.2e8ae0ec.chunk.js",
-    "static/css/main.0cd1fec3.chunk.css",
+    "static/css/main.2d9c7ef3.chunk.css",
     "static/js/main.9f566dc3.chunk.js"
   ]
 }
