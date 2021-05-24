@@ -2,7 +2,6 @@
     position: relative;
     width: 100%;
     height: 100%;
-    overflow-x: hidden;
     background: url("https://res.cloudinary.com/dzvebcsrp/image/upload/v1621877955/aditya-chinchure-ZhQCZjr9fHo-unsplash_vi7f7k.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -31,6 +30,9 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .loop-machine-container{
+    overflow-x: hidden;
+  }
   .inspiration-text{
     font-size: 14px;
   }
@@ -39,6 +41,9 @@
 @media only screen and (min-width: 600px) {
   .inspiration-text{
     font-size: 22px;
+  }
+  .loop-machine-container{
+    overflow: hidden;
   }
   
 }
