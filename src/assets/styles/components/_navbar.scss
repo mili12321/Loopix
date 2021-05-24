@@ -1,0 +1,26 @@
+.navbar{
+    z-index: 100;
+    font-size: 25px;
+    font-family: "Ubunto";
+    font-weight: 800;
+    position: absolute;
+    .navlink-btn{
+        display: flex;
+        color: white;
+    }
+}
+.logo-img{
+    width: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar{
+        padding: 7px 8px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .navbar{
+        padding: 7px 25px;
+    }
+}

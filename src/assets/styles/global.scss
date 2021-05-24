@@ -1,0 +1,27 @@
+// Setup
+@import "setup/variables.scss";
+@import "setup/functions.scss";
+@import "setup/mixins.scss";
+@import "setup/typography.scss";
+
+// Basics
+@import "basics/helpers.scss";
+@import "basics/layout.scss";
+@import "basics/base.scss";
+@import "basics/links.scss";
+@import "basics/inputs.scss";
+
+// Views
+@import "views/loop-machine.scss";
+
+
+// Components
+@import "components/navbar.scss";
+@import "components/pad-list.scss";
+@import "components/pad-preview.scss";
+@import "components/audio-visualizer-container.scss";
+@import "components/visualizer.scss";
+@import "components/spectrogaph.scss";
+@import "components/controls.scss";
+@import "components/player-button.scss";
+@import "components/msg.scss";

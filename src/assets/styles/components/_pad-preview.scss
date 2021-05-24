@@ -1,0 +1,133 @@
+
+.pad-preview{
+    background: rgb(253,63,133,0.57);
+    cursor: pointer;
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    width: fit-content;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    display: inline-block;
+    transition: all .3s ease-in-out;
+    border-radius: 10px;
+    z-index: 2;
+    overflow: hidden;
+    color: white;
+    &:hover {
+        box-shadow: 0 8px 32px 0 rgba( 208, 2, 27, 0.25 );
+    }
+    &.active{
+        background: 
+        #31b37aba;
+        box-shadow: 0 8px 32px 0 rgba( 80, 227, 194, 0.25 );
+        position: relative;
+    }
+    &.waiting-to-join{
+        background: rgba( 80, 227, 194, 0.25 );
+        animation: scan 2s infinite;
+        animation-duration: 750ms;
+        animation-delay: 0ms;
+        &:after {
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            content: '';
+            height: 2px;
+            opacity: 1;
+            background-color: #fff;
+            background-image: linear-gradient(to bottom,rgba(170, 184, 190, 0),rgba(170, 184, 190, .8));
+            box-shadow: 0 0 15px 2px rgb(212 207 201 / 75%);
+            animation: scanning 3s linear infinite;
+            animation-delay: 0ms;
+        }
+        &:before {
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+            background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAGCAYAAAAL+1RLAAAAF0lEQVQIW2NkwAIYgWKS6OIgQQxAoUoAE4AAUnD/0ugAAAAASUVORK5CYII=) repeat;
+            content: '';
+            opacity: 1;
+            border-radius: 10px;
+        }
+        &:hover{
+            box-shadow: 0 8px 32px 0 rgba( 80, 227, 194, 0.25 );
+        }
+
+    }
+}
+
+.pad-header{
+    display: flex;
+}
+  
+.icon{
+    font-size: 22px;
+}
+
+
+.glassmorphism{
+    backdrop-filter: blur( 5.5px );
+    -webkit-backdrop-filter: blur( 5.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+@media only screen and (max-width: 600px) {
+    .pad-preview{
+        padding: 7px 10px;
+        width: 100px;
+        width: 117px;
+        height: 117px;
+        margin:0
+    }
+    .pad-name{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .pad-preview{
+        padding: 7px 25px;
+        width: 220px;
+        height: 100px;
+        margin: 10px;
+    }
+}
+
+
+
+@keyframes scanning {
+    50% { 
+        transform: translate(0, 95px); 
+    }
+    100% { 
+        transform: translate( 0); 
+    }
+}
+
+@keyframes scan {
+    0% {
+        opacity: 1; 
+    }
+    20% {
+        opacity: .88; 
+    }
+    40% {
+        opacity: 1;
+    }
+    60% {
+        opacity: .88;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: .88;
+    }
+
+}
